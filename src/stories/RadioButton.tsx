@@ -1,5 +1,3 @@
-import React from 'react';
-
 import './radio-button.css';
 
 export interface RadioButtonProps {
