@@ -1,0 +1,15 @@
+{
+  "name": "storybook-mcp-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@storybook/mcp": "10.6.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+name = "storybook-mcp"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Where the deployed Storybook (and its manifests/) lives
+STORYBOOK_URL = "https://nivdvd.github.io/storybook"
+
+# @storybook/mcp ships a Node CJS-compat shim that reads import.meta.url at load
+# time; workerd leaves it undefined, so give it a placeholder.
+[define]
+"import.meta.url" = '"file:///worker/index.js"'
