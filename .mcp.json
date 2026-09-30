@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "storybook": {
+      "type": "http",
+      "url": "https://storybook-mcp.nivdvd.workers.dev/mcp"
+    }
+  }
+}
