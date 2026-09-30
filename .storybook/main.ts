@@ -13,6 +13,9 @@ const config: StorybookConfig = {
     "@storybook/addon-onboarding",
     "@storybook/addon-mcp"
   ],
-  "framework": "@storybook/react-vite"
+  "framework": "@storybook/react-vite",
+  "features": {
+    "componentsManifest": true
+  }
 };
 export default config;
